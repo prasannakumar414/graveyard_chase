@@ -203,7 +203,7 @@ test('random grave layouts preserve spawn clearance and connected walkable space
 test('He-Man speed grows with collected souls and caps at 200 percent', () => {
     const round = new ChaseRound(() => 0);
     for (let souls = 0; souls <= 200; souls++) {
-        const expectedRatio = Math.min(1.05 + souls * 0.005, 2.0);
+        const expectedRatio = Math.min(1.10 + souls * 0.005, 2.0);
         assert.ok(Math.abs(round.heroSpeed / SPEED.skull - expectedRatio) < 1e-12);
         assert.ok(round.heroSpeed <= SPEED.skull * 2.0);
         assert.equal(round.score, souls);
@@ -227,7 +227,7 @@ test('He-Man speed grows with collected souls and caps at 200 percent', () => {
 
 test('base speed ratios are exact and faster characters need longer to reverse', () => {
     assert.ok(Math.abs(SPEED.man / SPEED.skull - 0.90) < 1e-12);
-    assert.ok(Math.abs(SPEED.hero / SPEED.skull - 1.05) < 1e-12);
+    assert.ok(Math.abs(SPEED.hero / SPEED.skull - 1.10) < 1e-12);
     const reversalTime = speed => {
         let velocity = { x: speed, y: 0 };
         let elapsed = 0;

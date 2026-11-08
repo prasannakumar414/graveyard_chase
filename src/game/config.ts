@@ -1,7 +1,7 @@
 export const TILE_SIZE = 40;
 export const ARENA = { columns: 24, rows: 16, width: 960, height: 640 } as const;
 const REAPER_SPEED = 250;
-export const SPEED = { skull: REAPER_SPEED, man: REAPER_SPEED * 0.90, hero: REAPER_SPEED * 1.05 } as const;
+export const SPEED = { skull: REAPER_SPEED, man: REAPER_SPEED * 0.90, hero: REAPER_SPEED * 1.10 } as const;
 export const MAN_SPEED_SCALING = { maxMultiplier: 0.95, timeConstantMs: 60000 } as const;
 export const HERO_SPEED_SCALING = { gainPerSoul: 0.005, maxMultiplier: 2.0 } as const;
 export const MOTION = {

@@ -34,7 +34,7 @@ export function GameOverlay({ state, ready, onContinue }: Props) {
                     {buttonLabel}<span>↗</span>
                 </button>
                 <span className="overlay-footnote">
-                    {state.started ? 'P TO PAUSE · R TO RESTART' : 'ARROW KEYS / WASD · THUMB STICKS ON MOBILE'}
+                    {state.started ? 'P TO PAUSE · R TO RESTART' : 'ARROW KEYS / WASD · TOUCH ANYWHERE ON MOBILE'}
                 </span>
             </div>
         </div>

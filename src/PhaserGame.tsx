@@ -61,5 +61,5 @@ export const PhaserGame = forwardRef<IRefPhaserGame, Props>(function PhaserGame(
         };
     }, [ref]);
 
-    return <div ref={host} id="game-container" aria-label="Graveyard chase game. Use arrow keys or WASD on desktop. On mobile, use either thumb stick to move and lift to stop." />;
+    return <div ref={host} id="game-container" aria-label="Graveyard chase game. Use arrow keys or WASD on desktop. On mobile, touch anywhere to place the joystick, slide to move and lift to stop." />;
 });

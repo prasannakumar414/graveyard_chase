@@ -123,7 +123,7 @@ function App() {
                 <section className="below-game">
                     <div className="control-guide">
                         <div className="key-group"><kbd>W</kbd><span><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span></div>
-                        <div><strong>Keep moving.</strong><p>Arrow keys / WASD on desktop. Use either thumb stick on mobile.</p></div>
+                        <div><strong>Keep moving.</strong><p>Arrow keys / WASD on desktop. Touch anywhere to place the joystick on mobile.</p></div>
                     </div>
                     <div className="field-note">
                         <span>FIELD NOTE / 001</span><p>Graves make good cover.<br />Heroes make terrible company.</p>

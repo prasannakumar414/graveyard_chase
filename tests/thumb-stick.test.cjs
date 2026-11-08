@@ -61,3 +61,18 @@ test('pause, cancellation or resize reset ignores stale events and accepts the n
     h.stick.move(2, { x: 100, y: 50 });
     assert.deepEqual(h.direction, { x: 0, y: -1 });
 });
+
+
+test('the same joystick can restart at a new origin without retaining movement', () => {
+    const h = setup();
+    h.stick.move(1, { x: 150, y: 100 });
+    h.stick.release(1);
+    assert.deepEqual(h.direction, { x: 0, y: 0 });
+    assert.equal(h.stick.begin(2, { x: 650, y: 300 }, false, 30), true);
+    h.stick.move(2, { x: 650, y: 300 });
+    assert.deepEqual(h.direction, { x: 0, y: 0 });
+    h.stick.move(2, { x: 650, y: 350 });
+    assert.deepEqual(h.direction, { x: 0, y: 1 });
+    h.stick.release(2);
+    assert.deepEqual(h.direction, { x: 0, y: 0 });
+});
