@@ -1,0 +1,68 @@
+{
+  "scared_walk": {
+    "frames": 4,
+    "frame_size": [
+      256,
+      256
+    ],
+    "sheet_size": [
+      1024,
+      256
+    ]
+  },
+  "scared_death": {
+    "frames": 5,
+    "frame_size": [
+      256,
+      256
+    ],
+    "sheet_size": [
+      1280,
+      256
+    ]
+  },
+  "scared_to_powerful_transform": {
+    "frames": 8,
+    "frame_size": [
+      256,
+      256
+    ],
+    "sheet_size": [
+      2048,
+      256
+    ]
+  },
+  "powerful_walk": {
+    "frames": 4,
+    "frame_size": [
+      256,
+      256
+    ],
+    "sheet_size": [
+      1024,
+      256
+    ]
+  },
+  "powerful_attack": {
+    "frames": 6,
+    "frame_size": [
+      256,
+      256
+    ],
+    "sheet_size": [
+      1536,
+      256
+    ]
+  },
+  "powerful_to_scared_transform": {
+    "frames": 8,
+    "frame_size": [
+      256,
+      256
+    ],
+    "sheet_size": [
+      2048,
+      256
+    ]
+  }
+}
