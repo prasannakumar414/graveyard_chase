@@ -2,6 +2,10 @@
 
 A client-rendered Next.js + Phaser 4 game. Play as a skull in a tiled graveyard: catch the man for a point, then escape when he transforms into He-Man.
 
+<p align="center">
+  <img src="public/assets/characters/skull/rest.png" alt="Grim, the hooded reaper wielding a scythe in Graveyard Shift" width="300" />
+</p>
+
 ## Run
 
 ```sh
@@ -60,4 +64,6 @@ npm run deploy
 - `tests/game.test.cjs`: round-rule and connected-arena regression tests.
 - `skills/phaser/`: official Phaser development guides, indexed in its README and referenced by `AGENTS.md`.
 
-The original Phaser Next.js template license is retained in `LICENSE`.
+## License
+
+Licensed under the [MIT License](LICENSE). The original Phaser Next.js template copyright notice is retained alongside the game's copyright notice.
