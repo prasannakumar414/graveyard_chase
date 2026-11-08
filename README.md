@@ -1,10 +1,6 @@
-# Graveyard Shift
+# Graveyard Shift <img src="public/assets/characters/skull/rest.png" alt="Grim, the hooded reaper wielding a scythe in Graveyard Shift" width="100" height="200"/>
 
 A client-rendered Next.js + Phaser 4 game. Play as a skull in a tiled graveyard: catch the man for a point, then escape when he transforms into He-Man.
-
-<p align="center">
-  <img src="public/assets/characters/skull/rest.png" alt="Grim, the hooded reaper wielding a scythe in Graveyard Shift" width="100" height="200"/>
-</p>
 
 <img width="1060" height="783" alt="Screenshot 2026-11-08 at 1 52 49 PM" src="https://github.com/user-attachments/assets/c21e1f49-57e3-4e41-b3b5-8111a91254e8" />
 
